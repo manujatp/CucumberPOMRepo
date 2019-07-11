@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Austpost mypost login scenario",
+        "description": "",
+        "id": "austpost-login-feature;austpost-mypost-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13660991619,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user already on Personal page",
+            "match": {
+              "location": "AusPostLoginStepDefinition.user_already_on_Personal_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2002445654,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on mypost link",
+            "match": {
+              "location": "AusPostLoginStepDefinition.user_click_on_mypost_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1259110759,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"phmanuja@gmail.com\" and \"Karunyam16#\" in mypost home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "phmanuja@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Karunyam16#",
+                  "offset": 38
+                }
+              ],
+              "location": "AusPostLoginStepDefinition.user_enters_login_details(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 377333868,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on MyPost login button",
+            "match": {
+              "location": "AusPostLoginStepDefinition.user_click_on_MyPost_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84196,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on Mypost home page",
+            "match": {
+              "location": "AusPostLoginStepDefinition.user_is_on_Mypost_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9392883880,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on logout button in mypost home page",
+            "match": {
+              "location": "AusPostLoginStepDefinition.user_click_on_MyPost_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Austpost mypostbusiness login scenario",
+        "description": "",
+        "id": "austpost-login-feature;austpost-mypostbusiness-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11809927341,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user already on Personal page",
+            "match": {
+              "location": "AusPostLoginStepDefinition.user_already_on_Personal_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3115895216,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click on mypostbusiness link",
+            "match": {
+              "location": "AusPostLoginStepDefinition.user_click_on_mypostbusiness_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1002473529,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters \"phmanuja@gmail.com\" and \"Karunyam16#\" in mypostbusiness home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "phmanuja@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Karunyam16#",
+                  "offset": 38
+                }
+              ],
+              "location": "AusPostLoginStepDefinition.user_enters_mypostbusiness_login_details(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 307634718,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click on MyPostBusiness login button",
+            "match": {
+              "location": "AusPostLoginStepDefinition.user_click_mypostbusiness_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70542,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is on MypostBusiness home page",
+            "match": {
+              "location": "AusPostLoginStepDefinition.user_is_on_MyPostBusiness_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11689891752,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click on logout button in mypostbusiness home page",
+            "match": {
+              "location": "AusPostLoginStepDefinition.user_click_on_mypostbusiness_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "AustPost login feature",
+    "description": "",
+    "id": "austpost-login-feature",
+    "keyword": "Feature",
+    "uri": "src/main/java/com/qa/AusPost/Features/login.feature"
+  }
+]
